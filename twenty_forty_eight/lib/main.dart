@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: '2048 Game',
       theme: ThemeData(primarySwatch: Colors.orange),
       home: GameScreen(), // Utilise HomeScreen comme écran principal
